@@ -16,7 +16,7 @@ const googleSat = new ol.layer.Tile({
 // =========================
 // WMS LAYERS
 // =========================
-const wmsUrl = "hhttps://geos.ssp-bg.com/geoserver/Bulgaria/wms";
+const wmsUrl = "https://geos.ssp-bg.com/geoserver/Bulgaria/wms";
 
 const wmsLayers = {
     "Oblasti": new ol.layer.Tile({
